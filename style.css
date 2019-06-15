@@ -1,3 +1,20 @@
 .masthead-avatar {
     border-radius: 100%;
 }
+
+/* .bg-secondary {
+    background-color: #ffcc00 !important;
+  } */
+
+.bg-primary {
+    background-color: #c2c2d6 !important;
+  }
+
+  /* h1 {
+      color: #ffcc00;
+  } */
+
+  .masthead {
+    background-image: url("img/background2.jpg");
+    background-size: cover;
+  }
