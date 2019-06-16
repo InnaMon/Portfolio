@@ -1,20 +1,26 @@
-.masthead-avatar {
-    border-radius: 100%;
-}
+.masthead {
+    background-image: url("img/hero.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
 
-/* .bg-secondary {
-    background-color: #ffcc00 !important;
-  } */
+.masthead-title {
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
 
 .bg-primary {
     background-color: #c2c2d6 !important;
   }
 
-  /* h1 {
-      color: #ffcc00;
-  } */
+h1 {
+    color: #e6b800;
+}
 
-  .masthead {
-    background-image: url("img/background2.jpg");
-    background-size: cover;
-  }
+.divider-custom, .masthead-subheading {
+    color: #e6b800;
+}
+
+  
