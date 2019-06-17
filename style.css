@@ -28,6 +28,29 @@ h1 {
     background-color: #e6b800 !important;
 }
 
+#about {
+    background-image: url("img/about.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.about-outline {
+    border: solid 2px  #e6b800;
+    border-radius: 1%;
+    padding-top: 20px;
+}
+
+.about-outline h2, p {
+    color: black;
+}
+
+.about-outline h2 {
+    line-height: 200%;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
@@ -52,8 +75,15 @@ a {
     background-color: transparent;
 }
 
-@media screen and (min-width: 570px) {}
+@media screen and (min-width: 570px) {
+    #about {
+        height: 95vh;
+    }
+}
 
 @media screen and (min-width: 770px) {
+    #about {
+        height: 90vh;
+    }
 }
 
