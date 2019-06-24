@@ -92,6 +92,10 @@ a {
     color: #fff;
     background: #e6b800;
   }
+
+  .portfolio .portfolio-item .portfolio-item-caption {
+    background-color: rgba(230, 184, 0, 0.8); 
+}
 /*      
 .btn-link {
     font-weight: 400;
