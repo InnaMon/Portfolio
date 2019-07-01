@@ -1,3 +1,18 @@
+h1 {
+    color: #e6b800;
+}
+
+.bg-primary {
+    background-color: #e6b800 !important;
+}
+
+/* ----------- MASTHEAD --------------*/
+.masthead-title {
+    width: 100%;
+    margin: 0;
+    /* padding-right: 200px; */
+}
+
 .masthead {
     background-image: url("img/hero.jpg");
     background-size: cover;
@@ -10,23 +25,11 @@
     margin: auto;
   }
 
-.masthead-title {
-    width: 100%;
-    margin: 0;
-    /* padding-right: 200px; */
-}
-
-h1 {
+  .divider-custom, .masthead-subheading {
     color: #e6b800;
 }
 
-.divider-custom, .masthead-subheading {
-    color: #e6b800;
-}
-
-.bg-primary {
-    background-color: #e6b800 !important;
-}
+/* ----------- ABOUT SECTION --------------*/
 
 #about {
     background-image: url("img/about.jpg");
@@ -55,6 +58,8 @@ h1 {
     color: black;
     margin-bottom: 50px;
 }
+
+/* ----------- NAV BAR SECTION --------------*/
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -93,6 +98,8 @@ a {
     background: #e6b800;
   }
 
+/* ----------- PORTFOLIO SECTION --------------*/
+
   .portfolio .portfolio-item .portfolio-item-caption {
     background-color: rgba(230, 184, 0, 0.8); 
     width: 350px;
@@ -116,6 +123,13 @@ button.bg-primary:focus {
     width: 100%;
 }
 
+/* ----------- FOOTER --------------*/
+
+/* .footer {
+    height: 25vh;
+    padding: 50px 0;
+} */
+
 @media screen and (min-width: 570px) {
     #about {
         height: 95vh;
@@ -124,7 +138,12 @@ button.bg-primary:focus {
 
 @media screen and (min-width: 770px) {
     #about {
-        height: 90vh;
+        height: 75vh;
     }
+
+    #resume {
+        height: 100vh;
+    }
+    /* change the resume section once add the files, added the 100vh in order for nav bar to be responsive(yellow background over resume) */
 }
 
