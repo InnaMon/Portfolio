@@ -167,6 +167,10 @@ button.bg-primary:focus {
     color: #e6b800;
   }
 
+  .modal-text > p {
+      color: black;
+  }
+
 @media screen and (min-width: 570px) {
     #about {
         height: 60vh;
