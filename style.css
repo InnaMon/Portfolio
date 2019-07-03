@@ -171,6 +171,10 @@ button.bg-primary:focus {
       color: black;
   }
 
+  .modal-img > img {
+    border: solid 1px #cccccc;
+  }
+
 @media screen and (min-width: 570px) {
     #about {
         height: 60vh;
