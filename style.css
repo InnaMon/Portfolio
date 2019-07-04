@@ -175,6 +175,12 @@ button.bg-primary:focus {
     border: solid 1px #cccccc;
   }
 
+/* ----------- RESUME --------------*/
+
+.resume-link {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 570px) {
     #about {
         height: 60vh;
@@ -186,9 +192,9 @@ button.bg-primary:focus {
         height: 75vh;
     }
 
-    #resume {
+    /* #resume {
         height: 100vh;
-    }
+    } */
     /* change the resume section once add the files, added the 100vh in order for nav bar to be responsive(yellow background over resume) */
 }
 
