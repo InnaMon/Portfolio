@@ -29,28 +29,6 @@ h1 {
     color: #e6b800;
 }
 
-/* ----------- ABOUT SECTION --------------*/
-
-#about {
-    background-image: url("img/about.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
-
-.about-outline {
-    border: solid 1px  #e6b800;
-    border-radius: 1%;
-    padding-top: 20px;
-}
-
-
-.about-outline p {
-    color: black;
-    padding-bottom: 3rem;
-}
-
-
 /* ----------- NAV BAR SECTION --------------*/
 
 .nav-pills .nav-link.active,
@@ -115,12 +93,28 @@ button.bg-primary:focus {
     width: 100%;
 }
 
-/* ----------- FOOTER --------------*/
+/* ----------- ABOUT SECTION --------------*/
 
-/* .footer {
-    height: 25vh;
-    padding: 50px 0;
-} */
+#about {
+    background-image: url("img/about.jpg");
+    /* background-size: cover; */
+    background-position: center;
+    height: 100vh;
+}
+
+.about-outline {
+    border: solid 1px  #e6b800;
+    border-radius: 1%;
+    padding-top: 20px;
+}
+
+
+.about-outline p {
+    color: black;
+    /* padding-bottom: 3rem; */
+}
+
+/* ----------- FOOTER --------------*/
 
 /* ----------- MODAL --------------*/
 .btn-primary {
@@ -173,14 +167,14 @@ button.bg-primary:focus {
 
 @media screen and (min-width: 570px) {
     #about {
-        height: 60vh;
+        height: 70vh;
     }
 }
 
 @media screen and (min-width: 770px) {
-    #about {
+    /* #about {
         height: 75vh;
-    }
+    } */
 
     /* #resume {
         height: 100vh;
