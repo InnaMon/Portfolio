@@ -47,17 +47,9 @@ h1 {
 
 .about-outline p {
     color: black;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
-.about-outline h2 {
-    line-height: 200%;
-    /* text-decoration: underline; */
-    padding-left: 190px;
-    padding-top: 20px;
-    color: black;
-    margin-bottom: 50px;
-}
 
 /* ----------- NAV BAR SECTION --------------*/
 
