@@ -35,7 +35,7 @@ h1 {
     background-image: url("img/about.jpg");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
 }
 
 .about-outline {
@@ -47,7 +47,7 @@ h1 {
 
 .about-outline p {
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 3rem;
 }
 
 
