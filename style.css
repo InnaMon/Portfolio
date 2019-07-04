@@ -169,9 +169,7 @@ button.bg-primary:focus {
 
 /* ----------- RESUME --------------*/
 
-.resume-link {
-    cursor: pointer;
-}
+/* ----------- MEDIA QUERIES --------------*/
 
 @media screen and (min-width: 570px) {
     #about {
