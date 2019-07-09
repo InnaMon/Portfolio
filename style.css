@@ -161,6 +161,10 @@ button.bg-primary:focus {
     border: solid 1px #cccccc;
   }
 
+  .list li {
+    list-style-type: none;
+  }
+
 /* ----------- RESUME --------------*/
 
 /* ----------- MEDIA QUERIES --------------*/
